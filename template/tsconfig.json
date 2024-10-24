@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    // Emit Configuration
+    "noEmit": true,
+
+    //path alias
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@common/*": [
+        "./src/common/*"
+      ],
+      "@public/*": [
+        "./public/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+    },
+
+    // Type Checking Configuration
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitOverride": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    // Strict Rules - v4.8
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    // Modules Configuration
+    "baseUrl": "./",
+    "module": "ESNext",
+    "moduleResolution": "node",
+
+    // Language and Environment Configuration
+    "target": "ESNext",
+    "jsx": "react-jsx",
+
+    // JavaScript Support Configuration
+    "allowJs": false,
+    "checkJs": false,
+
+    // Interop Constraints Configuration
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/**/*", "src/config/jest.config.ts"],
+  "exclude": ["node_modules"]
+}

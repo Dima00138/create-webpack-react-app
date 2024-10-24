@@ -1,0 +1,20 @@
+{
+  "name": "create-webpack-react-app",
+  "version": "1.0.0",
+  "main": "",
+  "type": "module",
+  "license": "MIT",
+  "repository": "https://github.com/Dima00138/create-webpack-react-app.git",
+  "author": "Timoshenko Dmitry <dmitry.timoshenko50@gmail.com>",
+  "homepage": "https://github.com/Dima00138/create-webpack-react-app",
+  "bugs": {
+    "url": "https://github.com/Dima00138/create-webpack-react-app/issues"
+  },
+  "bin": {
+    "create-webpack-react-app": "bin/index.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "inquirer": "^12.0.0"
+  }
+}
