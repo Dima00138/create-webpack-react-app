@@ -1,6 +1,6 @@
 {
   "name": "create-webpack-react-redux-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "",
   "type": "module",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "url": "https://github.com/Dima00138/create-webpack-react-app/issues"
   },
   "bin": {
-    "create-webpack-react-redux-app": "bin/index.ts"
+    "create-webpack-react-redux-app": "bin/index.js"
   },
   "private": false
 }
