@@ -1,5 +1,5 @@
 {
-  "name": "create-webpack-react-app-setup",
+  "name": "create-webpack-react-redux-app-setup",
   "version": "1.0.0",
   "main": "",
   "author": "",
@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "redux": "^5.0.1",
     "react-redux": "^9.1.2",
     "react-router-dom": "^6.27.0",
     "redux-persist": "^6.0.0",
